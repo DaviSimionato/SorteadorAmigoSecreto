@@ -24,7 +24,7 @@
                     echo "<br>";
                     unset($pessoasSort1,$pessoasSort2);
                     sortear();
-                    break;
+                    die();
                 }else {
                     array_push($pessoasSort1,$pessoas1[$num1]);
                     array_push($pessoasSort2,$pessoas1[$num2]);
@@ -35,11 +35,11 @@
                     $pessoas2 = array_values($pessoas2);
                 }
             }
-            var_dump($pessoasSort1);
-            echo "<br>";
-            var_dump($pessoasSort2);
+            print_r($pessoasSort1);
+            print_r($pessoasSort2);
+
         }
-        // sortear();
+        sortear();
     ?>
 </body>
 </html>
