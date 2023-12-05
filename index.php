@@ -37,7 +37,6 @@
             }
             print_r($pessoasSort1);
             print_r($pessoasSort2);
-
         }
         sortear();
     ?>
